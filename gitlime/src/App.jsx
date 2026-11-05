@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import ProofBar from './components/ProofBar/ProofBar';
+import TechStackStrip from './components/TechStack/TechStackStrip';
 
 export default function App() {
   return (
@@ -7,6 +9,8 @@ export default function App() {
       <Navbar />
       <main id="main-content">
         <Hero />
+        <ProofBar />
+        <TechStackStrip />
       </main>
     </div>
   );
