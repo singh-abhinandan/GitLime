@@ -6,6 +6,7 @@ import TheSystem from './components/TheSystem/TheSystem';
 import TheProblem from './components/TheProblem/TheProblem';
 import SeeItWorking from './components/SeeItWorking/SeeItWorking';
 import Industries from './components/Industries/Industries';
+import RoiCalculator from './components/RoiCalculator/RoiCalculator';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <TheProblem />
         <SeeItWorking />
         <Industries />
+        <RoiCalculator />
       </main>
     </div>
   );
