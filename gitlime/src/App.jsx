@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero';
 import ProofBar from './components/ProofBar/ProofBar';
 import TechStackStrip from './components/TechStack/TechStackStrip';
 import TheSystem from './components/TheSystem/TheSystem';
+import TheProblem from './components/TheProblem/TheProblem';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <ProofBar />
         <TechStackStrip />
         <TheSystem />
+        <TheProblem />
       </main>
     </div>
   );
