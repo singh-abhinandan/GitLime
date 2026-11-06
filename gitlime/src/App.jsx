@@ -5,6 +5,7 @@ import TechStackStrip from './components/TechStack/TechStackStrip';
 import TheSystem from './components/TheSystem/TheSystem';
 import TheProblem from './components/TheProblem/TheProblem';
 import SeeItWorking from './components/SeeItWorking/SeeItWorking';
+import Industries from './components/Industries/Industries';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <TheSystem />
         <TheProblem />
         <SeeItWorking />
+        <Industries />
       </main>
     </div>
   );
