@@ -4,6 +4,7 @@ import ProofBar from './components/ProofBar/ProofBar';
 import TechStackStrip from './components/TechStack/TechStackStrip';
 import TheSystem from './components/TheSystem/TheSystem';
 import TheProblem from './components/TheProblem/TheProblem';
+import SeeItWorking from './components/SeeItWorking/SeeItWorking';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <TechStackStrip />
         <TheSystem />
         <TheProblem />
+        <SeeItWorking />
       </main>
     </div>
   );
